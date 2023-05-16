@@ -1,0 +1,31 @@
+body {
+    font-family: monospace;
+  }
+  #b{
+    background-color: #000;  }
+  #terminal {
+    width:100%;
+    margin: 0 auto;
+    background-color: black;
+    color: #0F0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  #input-line {
+    display: flex;
+  }
+  
+  #prompt {
+    color: #0F0;
+    padding-right: 5px;
+  }
+  
+  #command-input {
+    flex-grow: 1;
+    background-color: transparent;
+    border: none;
+    color: #0F0;
+    outline: none;
+  }
+  
