@@ -15,7 +15,7 @@ commandInput.addEventListener('keydown', function (event) {
 
         }
         else {
-            output.innerHTML += outputText ;
+            output.innerHTML += outputText +' \n';
             commandInput.value = '';
         }
     }
@@ -83,3 +83,10 @@ function processCommand(command) {
         return 'Command not found : ' + command + '\nType "help" for more information.';
     }
 }
+const closeButton = document.querySelector('.close-button');
+
+closeButton.addEventListener('click', function() {
+    window.close();
+});
+const maximizeButton = document.querySelector('.maximize-button');
+
